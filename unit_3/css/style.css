@@ -1,17 +1,18 @@
-body {
+body{
 	text-align: center;
 	background: url("http://blog.purelifedental.com/wp-content/uploads/2014/03/IMG_0097_2.jpg");
 	background-size: cover;
 	font-family: Arial, sans-serif;
-	color: #333333;
+	color: #000000;
 }
-
-h1 {
+h1{
 	font-weight: 700;
 	text-decoration: underline;
 	text-transform: uppercase;
 }
-
+hr{
+	width: 300px;
+}
 #slogan {
 	font-style: italic;
 }
