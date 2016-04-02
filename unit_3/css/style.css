@@ -4,7 +4,6 @@ body{
 	background-size: cover;
 	font-family: Arial, sans-serif;
 	color: #f8fff0;
-	background-color: #2b3547;
 	font-weight: 600;
 	font-size: 30px
 }
@@ -13,6 +12,7 @@ h1{
 	font-size: 80px;
 	text-decoration: underline;
 	text-transform: uppercase;
+	background-color: #2b3547;
 }
 hr{
 	width: 300px;
