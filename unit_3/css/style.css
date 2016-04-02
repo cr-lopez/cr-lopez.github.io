@@ -4,7 +4,7 @@ body{
 	background-size: cover;
 	font-family: Arial, sans-serif;
 	color: #ffffff;
-	text-shadow: 4px 4px 8px #000000;
+	text-shadow: 4px 4px 10px #000000;
 }
 p{
 	font-size: 25px;
@@ -22,6 +22,6 @@ hr{
 }
 #slogan {
 	font-style: italic;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 60px;
 }
