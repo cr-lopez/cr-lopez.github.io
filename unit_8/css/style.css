@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+header {
+	background-color: #FFED74;
+	border: .05em black solid;
+	padding: 20px;
+	width: 100%;
+}
+
+a:link {
+	color: deepink;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+nav {
+	display: block;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	font-size: 1.5em;
+	padding: 20px;
+	width: 100%;
+
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+	width: 100%;
+}
+
+#left {
+	background-color: #E582A2;
+	border: .1em black solid;
+	padding: 15px;
+	float: none;
+	width: 85%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#right {
+	background-color: #E55B88;
+	border: .1em black solid;
+	padding: 15px;
+	float: none;
+	width: 85%;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+}
+
+article {
+	background-color: #E89C6C;
+	border: .1em black solid;
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;	
+	margin: auto;
+	width: 100%;
+}
+
+div / section {
+	background-color: #FFE2B8;
+	border: 5px black solid;
+}
+ 
+body {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: #ffffff;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 2px 24px;
+	display: inline;
+	margin: auto;
+}
+
+h1 {
+	font-family: "Roboto Condensed", italics;
+	font-weight: 800;
+	font-size: 2em;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 5em;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+img.align-center {
+	display: block;
+	margin: auto;
+}
+
+img.medim {
+	width: 250px;
+	height: 250px;
+}
+
+.wrapper {
+	margin: auto;
+	padding: 0 0;
+	height: 0 0;
+}
