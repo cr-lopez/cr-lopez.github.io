@@ -8,8 +8,18 @@ body {
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#284252), to(#336666));
 }
 
+#header {
+	color: white;
+	text-transform: uppercase;
+}
+
 #content {
 	overflow: auto;
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
 }
 
 #nav, #feature, #footer {
@@ -29,6 +39,22 @@ body {
 	margin: 1%;
 }
 
+.column1 p {
+	font-style: italic;
+	padding: 1.2em 1.5em;
+	font-size: 1.5em;
+}
+
+.column2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.column2 img.align-center {
+	display: block;
+	margin: auto;
+}
+
 .column3 {
 	margin-right: 0%;
 }
@@ -36,6 +62,11 @@ body {
 .column3 li {
 	font-style: italic;
 	font-weight: 15%;	
+}
+
+.column3 p {
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 li {
@@ -49,7 +80,7 @@ li {
 }
 
 #feature {
-	height: 40em;
+	height: 25em;
 	margin: .5em;
 }
 
