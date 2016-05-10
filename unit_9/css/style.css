@@ -1,0 +1,88 @@
+body {
+	border: .1em dotted black;
+}
+
+header {
+	width: auto;
+	border: .01em dashed orange;
+	margin: 1em;
+	padding: .01em;
+}
+
+h1 {
+	width: auto;
+	border: .5em solid yellow;
+	margin: 1em;
+	padding: .01em;
+	text-align: center;
+
+}
+
+nav {
+	width: auto;
+	border: .01em dashed orange;
+	margin: 1em;
+	padding: .01em;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+section {
+	border: .1em dashed red;
+	margin: 1em;
+}
+
+.hero {
+	height: 30em;
+	width: auto;
+	border: .01em dotted blue;
+	margin: .01em;
+	padding: .01em;
+	display: block;
+}
+
+article {
+	width: 32.6%;
+	height: 22em;
+	border: .01em dotted green;
+	padding: .01em;
+	margin: .11em;
+	text-align: center;
+	display: inline-block;
+
+}
+
+#hero {
+	background-image: url(../images/latex2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#tech {
+	background-image: url(../images/tech.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#sales {
+	background-image: url(../images/george2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#service {
+	background-image: url(../images/server.jpg);
+	background-size: 100% 50%;
+	background-repeat: repeat-y;
+}
+
+footer {
+	width: auto;
+	height: 1.5em;
+	border: .1em solid purple;
+	padding: 01em;
+	margin: 1em;
+}
