@@ -2,6 +2,8 @@ body {
 	border: .1em dotted black;
 }
 
+
+
 header {
 	width: auto;
 	border: .01em dashed orange;
@@ -46,7 +48,6 @@ section {
 
 article {
 	width: 32.6%;
-	height: 22em;
 	border: .01em dotted green;
 	padding: .01em;
 	margin: .11em;
@@ -61,6 +62,8 @@ article {
 	background-repeat: no-repeat;
 }
 
+/*****Possible Background CSS vs HTML Images*******
+
 #tech {
 	background-image: url(../images/tech.jpg);
 	background-size: 100% 100%;
@@ -74,10 +77,12 @@ article {
 }
 
 #service {
-	background-image: url(../images/server.jpg);
-	background-size: 100% 50%;
-	background-repeat: repeat-y;
+	background-image: url(../images/network.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
+
+*****/
 
 footer {
 	width: auto;
@@ -85,4 +90,5 @@ footer {
 	border: .1em solid purple;
 	padding: 01em;
 	margin: 1em;
+	text-align: center;
 }
